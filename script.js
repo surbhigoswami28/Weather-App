@@ -26,7 +26,7 @@ function changeIcon(weatherMain) {
         Snow: "snow.png",
         Clear: "clear.png"
     };
-    icon.src = icons[weatherMain] || "/images/clear.png";
+    icon.src = icons[weatherMain] || "clear.png";
 }
 
 
