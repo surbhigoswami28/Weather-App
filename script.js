@@ -47,7 +47,7 @@ async function getWeatherData(city) {
         wind.innerHTML = "0km/h";
         humidity.innerHTML = "0%";
         search.value="";
-        icon.src="images/clear.png";
+        icon.src="clear.png";
 
         return;
 
